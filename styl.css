@@ -1,0 +1,291 @@
+ *{
+    margin: 0;
+    font-family: Arial;
+   border: border-box;
+
+ }
+  
+ 
+ .navbar{
+  justify-content: space-evenly;
+   height: 55px;
+   background-color: #0f1111;
+   color: white;
+   display: flex;
+   align-items: center;
+   overflow:hidden;
+
+
+ }
+
+ .nav-logo{
+   height: 40px;
+   width: 130px;
+  
+ 
+ }
+
+ .logo{
+   background-image: url(logos.png);
+   background-size: cover;
+   height: 35px;
+   width: 120px;
+   transition: all ease 1s;
+ }
+ .logo:hover{
+  scale: 1.2;
+ }
+
+ .border{
+   border:2px solid transparent;
+ }
+
+ .border:hover{
+   border: 2px solid white;
+
+ }
+
+ /** box 2 **/
+
+ .add-dilever{
+  color: #cccccc;
+  font-size: 0.75rem;
+  margin-left: 15px;
+
+ }
+
+.add-india{
+  font-size: 1rem;
+  margin-left: 15px;
+  
+}
+
+.add-icons{
+  display: flex;
+  align-items: center;
+}
+
+/** box 3 **/
+
+.nav-search{
+ display: flex;
+ justify-content: space-evenly;
+ background-color: aqua;
+ height: 35px;
+ width: 820px;
+ border-radius: 5px;
+}
+
+.nav-search:hover{
+  border: 2px solid orangered;
+}
+
+
+.nav-selecter{
+  background-color: rgb(218, 212, 212);
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 5x;
+  border-bottom-left-radius: 5x;
+  border: none;
+}
+
+.search-input{
+  width:100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-icon{
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color:rgb(242, 101, 49);
+  color: #0f1111;
+  border-top-right-radius: 5x;
+  border-bottom-right-radius: 5x;
+}
+
+/** box4 **/
+
+.sp{
+  font-size: 0.8rem;
+}
+
+.Account{
+  font-weight: 700;
+}
+
+/** box 5 **/
+.card{
+  display: flex;
+}
+ 
+.icons{
+  font-size: 30px;
+}
+
+/**  panel  **/
+
+.panel{
+  height: 40px;
+  background-color: #1f2c39;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+
+}
+
+.panel-option p {
+  display: inline;
+  margin-left: 20px;
+  font-weight: 600;
+  scale: 1.2;
+}
+
+.panel-option{
+  width: 70%;
+  font-size: 0.87rem;
+  transition: all 2s;
+}
+
+.panel-deals{
+font-size: 1rem;
+font-weight: 700;
+}
+
+/** main section **/
+
+.main-section{
+  background-image: url(game.png);
+  height: 600px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.msg{
+  background-color: white;
+  color: black;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  width: 90%;
+  margin: 25px;
+}
+
+.msg- a {
+  color: #1097af;
+}
+
+
+/** sho sections **/
+.shop-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+.box{
+  height: 400px;
+  width: 20%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin: 20px;
+}
+.box-img{
+  height: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1erm;
+  background-size: cover;
+}
+.box-content{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.see{
+  margin-top: 25px;
+}
+.box-content p{
+  color: #007185;
+}
+
+/** footer **/
+footer{
+  margin-top: 20px;
+}
+.footer-panel1{
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+
+}
+.footer-panel2{
+  background-color: #222f3d;
+  color: white;
+  height: 400px;
+  display: flex;
+  justify-content:space-evenly;
+  
+}
+
+ul{
+  margin: 50px;
+}
+
+ul p{
+  font-weight: 600;
+}
+
+ul a{
+  display: block;
+  font-size: 0.85rem;
+  margin: 15px;
+  color: #dddddd;
+  font-weight: 700; 
+}
+.footer-panel3{
+  background-color:  #222f3d;
+  border-top: 0.5px solid white;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-logo{
+  background-image: url(logos.png);
+   background-size: cover;
+   height: 35px;
+   width: 120px;
+  
+}
+
+.footer-panel4{
+  height: 70px;
+  background-color: #212426;
+  color: white;
+}
+.pages{
+  padding-top: 25px;
+font-size: 0.7rem;
+text-align: center;
+font-weight: 600;
+}
+
+.copyright{
+  padding: 5px;
+  font-size: 0.7rem;
+  text-align: center;
+  font-weight: 600;
+}
